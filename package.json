@@ -1,0 +1,15 @@
+{
+  "name": "no-inkscape",
+  "version": "0.1.0",
+  "description": "Testing whether TSVG can reproduce the titlepage SVG for Phantom of the Opera",
+  "main": "index.js",
+  "dependencies": {
+    "tsvg": "^0.1.14"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jared Updike",
+  "license": "ISC"
+}
