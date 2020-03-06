@@ -1,0 +1,6 @@
+node_modules/*
+*.svg
+*.zip
+font-*.json
+league-spartan-master/
+sorts-mill-goudy-master/
