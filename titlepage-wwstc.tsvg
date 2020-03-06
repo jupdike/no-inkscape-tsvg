@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1400 420">
+	<title>The titlepage for the Standard Ebooks edition of Lyrical Ballads, by William Wordsworth and Samuel Taylor Coleridge</title>
+  <Font path='./LeagueSpartan-Bold.svg'/>
+		<!-- text{
+			font-family: League Spartan
+			letter-spacing: 5px
+			text-anchor: middle
+		}
+
+		.title{
+			font-size: 93.56725311px
+		}
+
+		.author{
+			font-size: 70.17543793px
+		} -->
+	@text1 = @makeStyle({'text-anchor': 'middle', 'letter-spacing': '5px'});
+	@text2 = @makeStyle({'text-anchor': 'middle', 'letter-spacing': '0'});
+	<TextPath font-id="LeagueSpartan-Bold" style={@text1} font-size="93.5672531px"
+    x="700" y="130">LYRICAL BALLADS</TextPath>
+	<TextPath font-id="LeagueSpartan-Bold" style={@text1}  font-size="70.17543793px"
+    x="700" y="290">WILLIAM WORDSWORTH</TextPath>
+	<TextPath font-id="LeagueSpartan-Bold" style={@text1}  font-size="70.17543793px"
+	  x="700" y="370">SAMUEL TAYLOR COLERIDGE</TextPath>
+</svg>
