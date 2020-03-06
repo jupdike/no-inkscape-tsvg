@@ -4,7 +4,7 @@
   "description": "Testing whether TSVG can reproduce the titlepage SVG for Phantom of the Opera",
   "main": "index.js",
   "dependencies": {
-    "tsvg": "^0.1.14"
+    "tsvg": "^0.1.15"
   },
   "devDependencies": {},
   "scripts": {
